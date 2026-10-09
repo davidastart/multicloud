@@ -22,7 +22,11 @@ In this workshop, you will:
 
 After completing this lab, you will understand how easily you can establish a fully managed private interconnect between OCI and AWS environments. You will have built and validated a practical data path from an Autonomous AI Lakehouse in OCI to Amazon S3 in AWS without sending the database-to-S3 traffic across the public internet.
 
-## Oracle--AWS Interconnect benefits
+## About Oracle--AWS Interconnect
+
+Oracle--AWS Interconnect is a jointly delivered Oracle and AWS service that provides managed, private connectivity between OCI and AWS environments. It brings together Oracle FastConnect and AWS Direct Connect so that you can connect services across the two clouds without building and operating the underlying cross-cloud network integration yourself.
+
+### Benefits
 
 * Fully managed, private interconnect solution powered by Oracle FastConnect and AWS Direct Connect technologies.
 * Simplified network setup that abstracts the underlying connectivity between OCI and AWS.
@@ -30,6 +34,12 @@ After completing this lab, you will understand how easily you can establish a fu
 * Automated redundancy and load balancing.
 * Managed encryption enabled by default.
 * Collaborative support model.
+
+### Representative use cases
+
+* Use OCI GPU capacity for AI training while the training data and applications remain in AWS.
+* Access OCI services, including Exadata and Autonomous Database, from applications and users in AWS.
+* Extend OCI data services to AWS data sources—for example, allow an Autonomous AI Lakehouse to query data stored in AWS Glue or Amazon S3, as demonstrated in this workshop.
 
 ### Prerequisites
 
